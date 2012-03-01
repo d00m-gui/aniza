@@ -7,4 +7,4 @@
 # Ignore all logfiles and tempfiles.
 .DS_Store
 .project
-project.propierties
+project.properties
