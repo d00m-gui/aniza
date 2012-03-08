@@ -6,6 +6,10 @@
     <title>Perkins Training App</title>
     <link href="stylesheets/app.less" rel="stylesheet/less" />
     <script type="text/javascript" src="javascripts/less-1.2.1.min.js"></script>
+    <script type="text/javascript">
+      less.env="development";
+      less.watch();
+    </script>
     <!-- 
     <link rel="stylesheet" href="assets/css/master.css" type="text/css" media="screen" />
     <script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
@@ -28,12 +32,12 @@
     </section>
     <footer id="menu">
       <ul class="h-menu">
-        <li><a href="javascript:void(0);"><span class="p-plus"></span> Contactos</a></li>
-        <li><a href="javascript:void(0);"><span class="p-user"></span> Prospectos</a></li>
-        <li><a href="javascript:void(0);"><span class="p-suitcase"></span> Clientes</a></li>
+        <li><a href="javascript:void(0);" title="Contactos"><span class="p-plus"></span></a></li>
+        <li><a href="javascript:void(0);" title="Prospectos"><span class="p-user"></span></a></li>
+        <li><a href="javascript:void(0);" title="Clientes"><span class="p-suitcase"></span></a></li>
       </ul>
       <ul class="h-menu right">
-        <li><a href="javascript:void(0);"><span class="p-house"></span> Home</a></li>
+        <li><a href="javascript:void(0);"><span class="p-house"></span></a></li>
       </ul>
     </footer>
   </body>
