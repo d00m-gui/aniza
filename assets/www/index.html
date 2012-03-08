@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
     <title>Perkins Training App</title>
+    <link href="stylesheets/app.less" rel="stylesheet/less" />
+    <script type="text/javascript" src="javascripts/less-1.2.1.min.js"></script>
+    <!-- 
     <link rel="stylesheet" href="assets/css/master.css" type="text/css" media="screen" />
     <script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/js/xui.js" type="text/javascript" charset="utf-8"></script>
@@ -12,43 +16,25 @@
     <script src="assets/js/lawnchair/Lawnchair.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/js/dsl.js" type="text/javascript" charset="utf-8"></script>
     <script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
+    -->
   </head>
   <body>
-     <div id="title_bar">Phone<strong>Gap</strong> Training App</div>
-
-    <div id="welcome" class="view">
-      <div class="app_button" id="map_button">Show My Location</div>
-          <div class="app_button" id="settings_button">Settings</div>
-    </div>
-
-    <div id="map" class="view">
-      <div class="map_image">
-              <img id="static_map" src="assets/img/staticmap.png">
-      </div>
-      <p>This is where you are</p>
-      <div class="app_button" id="welcome_button">Go Back</div>
-    </div>
-
-    <div id="settings" class="view">
-      <form id="settings_form">
-        <fieldset>
-          <legend>Map Type</legend>
-        <input type="radio" name="map" value="roadmap" checked>Road Map<br/>
-          <input type="radio" name="map" value="satellite">Satellite<br/>
-          <input type="radio" name="map" value="terrain">Terrain<br/>
-          <input type="radio" name="map" value="hybrid">Hybrid<br/>
-        </fieldset>
-        <fieldset>
-          <legend>Zoom Level</legend>
-            <input type="radio" name="zoom" value="10">Super Far<br/>
-            <input type="radio" name="zoom" value="12">Far<br/>
-            <input type="radio" name="zoom" value="15" checked>Normal<br/>
-            <input type="radio" name="zoom" value="18">Close<br/>
-            <input type="radio" name="zoom" value="20">Super Close<br/>
-           </fieldset>
-          <button id="save_button">Save</button>
-        </form>
-    </div>
-
+    <header id="top">
+      <h1>Logo Empresa</h1>
+    </header>
+    <section id="content">
+      <h1>Bienvenido</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </section>
+    <footer id="menu">
+      <ul class="h-menu">
+        <li><a href="javascript:void(0);"><span class="p-plus"></span> Contactos</a></li>
+        <li><a href="javascript:void(0);"><span class="p-user"></span> Prospectos</a></li>
+        <li><a href="javascript:void(0);"><span class="p-suitcase"></span> Clientes</a></li>
+      </ul>
+      <ul class="h-menu right">
+        <li><a href="javascript:void(0);"><span class="p-house"></span> Home</a></li>
+      </ul>
+    </footer>
   </body>
 </html>

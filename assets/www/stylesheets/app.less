@@ -1,0 +1,50 @@
+// {>o<} Perkins
+@import "perkins";
+@import "perkins/grid";
+@import "perkins/table";
+@import "perkins/form";
+@import "perkins/feedback";
+@import "perkins/shapes";
+@import "perkins/ui";
+@import "plugins/mnmlicons/mnmlicons";
+
+@p-sans:                          'Open Sans', sans-serif;
+@p-headings:                      'Montserrat';
+
+body {
+  background: #303030 url(../images/tcloth.png);
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+}
+p {
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+}
+#menu {
+  position: fixed;
+  bottom: 0;
+  background: #ddd;
+  overflow: hidden;
+  width: 100%;
+  a {
+    padding: 20px 30px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: #7FB060;
+    color: #2F4220;
+    margin: 0;
+    border-left: 1px solid darken(#7FB060, 10%);
+    line-height: 1;
+    &:hover, &:focus {
+      background: #2F4220;
+      color: #7FB060;
+    }
+    span {
+      position: relative;
+      top: 3px;
+      font-size: 3.0rem;
+    }
+  }
+}
